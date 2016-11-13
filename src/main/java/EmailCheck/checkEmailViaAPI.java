@@ -9,7 +9,8 @@ import javax.mail.Session;
 import javax.mail.Store;
 
 public class checkEmailViaAPI {
-	
+	static String userName = "instructjake1088@gmail.com";
+	static String passWord = "student1088";
 	public static void checkEmail(String host,String storeType,String user,String pwd) throws MessagingException, IOException {
 		      Properties pr = new Properties();
 		      pr.put("mail.pop3.host", host);
@@ -38,10 +39,7 @@ public class checkEmailViaAPI {
 		      String host = "pop.gmail.com";
 		      String mailStoreType = "pop3";
 
-		      checkEmail(host,mailStoreType,"instructjake1088@gmail.com","student1088");
+		      checkEmail(host,mailStoreType,userName,passWord);
 		   }
-			
-			static String userName = "";
-			static String passWord = "";
 	
 }
