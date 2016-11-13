@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33283" started-at="2016-11-12T22:56:10Z" finished-at="2016-11-12T22:56:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33283" started-at="2016-11-12T22:56:10Z" finished-at="2016-11-12T22:56:43Z">
+      <class name="EmailCheck.checkEmail">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:EmailCheck.checkEmail@dc24521]" name="openBrowser" is-config="true" duration-ms="4313" started-at="2016-11-12T17:56:10Z" finished-at="2016-11-12T17:56:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="executeEmail(java.lang.String, java.lang.String)[pri:0, instance:EmailCheck.checkEmail@dc24521]" name="executeEmail" duration-ms="13186" started-at="2016-11-12T17:56:14Z" data-provider="emailAccounts" finished-at="2016-11-12T17:56:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[extremeflare@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[flower24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeEmail -->
+        <test-method status="PASS" signature="executeEmail(java.lang.String, java.lang.String)[pri:0, instance:EmailCheck.checkEmail@dc24521]" name="executeEmail" duration-ms="10722" started-at="2016-11-12T17:56:27Z" data-provider="emailAccounts" finished-at="2016-11-12T17:56:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[generalrelativity24@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[flower24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeEmail -->
+        <test-method status="PASS" signature="executeEmail(java.lang.String, java.lang.String)[pri:0, instance:EmailCheck.checkEmail@dc24521]" name="executeEmail" duration-ms="5033" started-at="2016-11-12T17:56:38Z" data-provider="emailAccounts" finished-at="2016-11-12T17:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[instructjake1088@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[student1088]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeEmail -->
+      </class> <!-- EmailCheck.checkEmail -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
